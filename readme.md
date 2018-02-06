@@ -55,7 +55,7 @@ import { Component } from '@angular/core';
 
 @Component({
 	selector: 'app-root',
-	styles: ['monaco-editor { height: 500px; }'],
+	styles: ['monaco-editor { height: 500px; display:block; }'],
 	template: `
 		<monaco-editor></monaco-editor>
 	`
